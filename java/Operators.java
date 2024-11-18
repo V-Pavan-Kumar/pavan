@@ -1,10 +1,10 @@
 public class Operators {
     public static void main(String args[]){
-        int a=100,b=20; 
+        int a=1,b=2; 
         int sum=a+b;
         int sub=a-b;
         int mul=a*b;
-        int div=a/b;
+        float div=a/(float)b;
         System.out.println("Addition: "+sum);
         System.out.println("Subtaction: "+sub);
         System.out.println("Multiplication: "+mul);
